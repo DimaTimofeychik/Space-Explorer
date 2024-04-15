@@ -17,7 +17,6 @@
 		2A89DA932BCAA1F500055E64 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2A89DA922BCAA1F500055E64 /* Alamofire */; };
 		2A89DA952BCAA1F500055E64 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A89DA942BCAA1F500055E64 /* AlamofireDynamic */; };
 		2A89DA972BCAA27200055E64 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DA962BCAA27200055E64 /* Constant.swift */; };
-		2A89DA992BCAAB4B00055E64 /* APOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DA982BCAAB4B00055E64 /* APOD.swift */; };
 		2A89DAA32BCBCD7A00055E64 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAA22BCBCD7A00055E64 /* WelcomeScreenViewController.swift */; };
 		2A89DAA52BCBCD8800055E64 /* WelcomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAA42BCBCD8800055E64 /* WelcomeScreenViewModel.swift */; };
 		2A89DAA72BCBCD9D00055E64 /* WelcomeScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAA62BCBCD9D00055E64 /* WelcomeScreenTableViewCell.swift */; };
@@ -26,6 +25,9 @@
 		2A89DAAF2BCBE98100055E64 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAAE2BCBE98100055E64 /* SettingsViewModel.swift */; };
 		2A89DAB12BCC059600055E64 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAB02BCC059600055E64 /* SettingsCoordinator.swift */; };
 		2A89DAB32BCC065D00055E64 /* WelcomeScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAB22BCC065D00055E64 /* WelcomeScreenCoordinator.swift */; };
+		2A89DAB72BCC37DA00055E64 /* APODViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAB62BCC37DA00055E64 /* APODViewController.swift */; };
+		2A89DAB92BCC37E600055E64 /* APODViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAB82BCC37E600055E64 /* APODViewModel.swift */; };
+		2A89DABB2BCC3F2000055E64 /* APODCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DABA2BCC3F2000055E64 /* APODCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +41,6 @@
 		2A89DA8C2BCA87B900055E64 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
 		2A89DA8F2BCAA13000055E64 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2A89DA962BCAA27200055E64 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		2A89DA982BCAAB4B00055E64 /* APOD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APOD.swift; sourceTree = "<group>"; };
 		2A89DAA22BCBCD7A00055E64 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
 		2A89DAA42BCBCD8800055E64 /* WelcomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewModel.swift; sourceTree = "<group>"; };
 		2A89DAA62BCBCD9D00055E64 /* WelcomeScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenTableViewCell.swift; sourceTree = "<group>"; };
@@ -48,6 +49,9 @@
 		2A89DAAE2BCBE98100055E64 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		2A89DAB02BCC059600055E64 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
 		2A89DAB22BCC065D00055E64 /* WelcomeScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenCoordinator.swift; sourceTree = "<group>"; };
+		2A89DAB62BCC37DA00055E64 /* APODViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewController.swift; sourceTree = "<group>"; };
+		2A89DAB82BCC37E600055E64 /* APODViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewModel.swift; sourceTree = "<group>"; };
+		2A89DABA2BCC3F2000055E64 /* APODCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +96,6 @@
 				2A89DA822BCA85D400055E64 /* LaunchScreen.storyboard */,
 				2A89DA852BCA85D400055E64 /* Info.plist */,
 				2A89DA7D2BCA85D200055E64 /* Space_Explorer.xcdatamodeld */,
-				2A89DA982BCAAB4B00055E64 /* APOD.swift */,
 			);
 			path = "Space Explorer";
 			sourceTree = "<group>";
@@ -102,6 +105,7 @@
 			children = (
 				2A89DA8C2BCA87B900055E64 /* RootCoordinator.swift */,
 				2A89DAB22BCC065D00055E64 /* WelcomeScreenCoordinator.swift */,
+				2A89DABA2BCC3F2000055E64 /* APODCoordinator.swift */,
 				2A89DAB02BCC059600055E64 /* SettingsCoordinator.swift */,
 			);
 			path = Coordinators;
@@ -112,7 +116,6 @@
 			children = (
 				2A89DA9B2BCB234F00055E64 /* Settings */,
 				2A89DA8F2BCAA13000055E64 /* NetworkManager.swift */,
-				2A89DA962BCAA27200055E64 /* Constant.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -149,6 +152,8 @@
 		2A89DA9F2BCBCBF000055E64 /* AstronomyPictureOfTheDay */ = {
 			isa = PBXGroup;
 			children = (
+				2A89DAB62BCC37DA00055E64 /* APODViewController.swift */,
+				2A89DAB82BCC37E600055E64 /* APODViewModel.swift */,
 			);
 			path = AstronomyPictureOfTheDay;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				2A89DAA92BCBDE6700055E64 /* WelcomeScreenModel.swift */,
+				2A89DA962BCAA27200055E64 /* Constant.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -263,10 +269,11 @@
 			files = (
 				2A89DAA72BCBCD9D00055E64 /* WelcomeScreenTableViewCell.swift in Sources */,
 				2A89DA752BCA85D200055E64 /* AppDelegate.swift in Sources */,
+				2A89DABB2BCC3F2000055E64 /* APODCoordinator.swift in Sources */,
 				2A89DA8D2BCA87B900055E64 /* RootCoordinator.swift in Sources */,
+				2A89DAB72BCC37DA00055E64 /* APODViewController.swift in Sources */,
 				2A89DAA52BCBCD8800055E64 /* WelcomeScreenViewModel.swift in Sources */,
 				2A89DA902BCAA13000055E64 /* NetworkManager.swift in Sources */,
-				2A89DA992BCAAB4B00055E64 /* APOD.swift in Sources */,
 				2A89DA772BCA85D200055E64 /* SceneDelegate.swift in Sources */,
 				2A89DAA32BCBCD7A00055E64 /* WelcomeScreenViewController.swift in Sources */,
 				2A89DAB32BCC065D00055E64 /* WelcomeScreenCoordinator.swift in Sources */,
@@ -275,6 +282,7 @@
 				2A89DA7F2BCA85D200055E64 /* Space_Explorer.xcdatamodeld in Sources */,
 				2A89DAB12BCC059600055E64 /* SettingsCoordinator.swift in Sources */,
 				2A89DA972BCAA27200055E64 /* Constant.swift in Sources */,
+				2A89DAB92BCC37E600055E64 /* APODViewModel.swift in Sources */,
 				2A89DAAD2BCBE97500055E64 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,7 +13,6 @@ final class WelcomeScreenViewController: UIViewController {
     //MARK: - Lyfecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         addSubviews()
         configureConstraints()
         configureUI()
@@ -98,7 +97,6 @@ final class WelcomeScreenViewController: UIViewController {
 
 //MARK: - TableView Delegate/DataSource
 extension WelcomeScreenViewController: UITableViewDelegate, UITableViewDataSource {
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return cells.count
     }
@@ -113,5 +111,23 @@ extension WelcomeScreenViewController: UITableViewDelegate, UITableViewDataSourc
         return UITableViewCell()
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0 {
+            let apodViewModel = APODViewModel(networkManager: NetworkManager.instance)
+            let apodViewController = APODViewController()
+            apodViewController.viewModel = apodViewModel
+            
+            apodViewModel.fetchAPODData()
+            apodViewModel.didUpdateAPOD = { [weak self] apod in
+                DispatchQueue.main.async {
+                    apodViewController.updateUI(with: apod)
+                    self?.navigationController?.pushViewController(apodViewController, animated: true)
+                }
+            }
+        } else if indexPath.row == 1 {
+            // Handle other cell selections
+        } else if indexPath.row == 2 {
+            // Handle other cell selections
+        }
+    }
 }

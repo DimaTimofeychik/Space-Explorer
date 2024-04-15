@@ -6,6 +6,7 @@ final class RootCoordinator {
     private let initialNavigationController = UINavigationController()
     
     private var welcomeScrCoordinator: WelcomeScreenCoordinator?
+    private var apodScreCoordinator: APODCoordinator?
     
     init(window: UIWindow) {
         self.window = window
@@ -13,6 +14,7 @@ final class RootCoordinator {
     // MARK: - Methods
     func start() {
         welcomeScrCoordinator = WelcomeScreenCoordinator(navigationController: initialNavigationController)
+        apodScreCoordinator = APODCoordinator(navigationController: initialNavigationController)
         
         if let coordinator = welcomeScrCoordinator {
             coordinator.start()

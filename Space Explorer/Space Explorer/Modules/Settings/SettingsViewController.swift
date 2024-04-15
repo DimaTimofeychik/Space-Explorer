@@ -29,6 +29,20 @@ final class SettingsViewController: UIViewController {
         navigationItem.hidesBackButton = true
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Hide the navigation bar
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        // Show the navigation bar on other screens
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
     override func viewDidLayoutSubviews() {
         super.viewWillLayoutSubviews()
         setCornerRadius()
@@ -62,8 +76,8 @@ final class SettingsViewController: UIViewController {
         backButton.translatesAutoresizingMaskIntoConstraints = false
         backButton.centerYAnchor.constraint(equalTo: titleLabel.centerYAnchor).isActive = true
         backButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 26).isActive = true
-        backButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
-        backButton.widthAnchor.constraint(equalToConstant: 50).isActive = true
+        backButton.heightAnchor.constraint(equalToConstant: 70).isActive = true
+        backButton.widthAnchor.constraint(equalToConstant: 70).isActive = true
         
         termsOfUseView.translatesAutoresizingMaskIntoConstraints = false
         termsOfUseView.topAnchor.constraint(equalTo: backButton.safeAreaLayoutGuide.bottomAnchor, constant: 30).isActive = true

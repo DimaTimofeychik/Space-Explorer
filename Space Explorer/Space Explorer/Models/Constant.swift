@@ -10,10 +10,10 @@ class Constant {
     }
     
     static var url: URL {
-        guard let url = URL(string: "\(baseUrlString)api_key=\(apiKey)&count=25") else { //25 рандомных фоток из апи
+        guard let url = URL(string: "\(baseUrlString)api_key=\(apiKey)") else { //25 рандомных фоток из апи
             fatalError()
         }
-                return url
+        return url
     }
     
     static var session: URLSession {

@@ -7,6 +7,8 @@ final class WelcomeScreenViewModel {
     
     
     // MARK: - Methods
+    
+    
     func settingsButtonTapped() {
         showSettingsPage?()
     }
