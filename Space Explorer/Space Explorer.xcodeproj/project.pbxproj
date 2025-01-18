@@ -9,23 +9,49 @@
 /* Begin PBXBuildFile section */
 		2A89DA752BCA85D200055E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DA742BCA85D200055E64 /* AppDelegate.swift */; };
 		2A89DA772BCA85D200055E64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DA762BCA85D200055E64 /* SceneDelegate.swift */; };
-		2A89DA792BCA85D200055E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DA782BCA85D200055E64 /* ViewController.swift */; };
-		2A89DA7C2BCA85D200055E64 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2A89DA7B2BCA85D200055E64 /* Base */; };
 		2A89DA7F2BCA85D200055E64 /* Space_Explorer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DA7D2BCA85D200055E64 /* Space_Explorer.xcdatamodeld */; };
 		2A89DA812BCA85D400055E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A89DA802BCA85D400055E64 /* Assets.xcassets */; };
 		2A89DA842BCA85D400055E64 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2A89DA832BCA85D400055E64 /* Base */; };
+		2A89DA8D2BCA87B900055E64 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DA8C2BCA87B900055E64 /* RootCoordinator.swift */; };
+		2A89DA902BCAA13000055E64 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DA8F2BCAA13000055E64 /* NetworkManager.swift */; };
+		2A89DA932BCAA1F500055E64 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2A89DA922BCAA1F500055E64 /* Alamofire */; };
+		2A89DA952BCAA1F500055E64 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A89DA942BCAA1F500055E64 /* AlamofireDynamic */; };
+		2A89DA972BCAA27200055E64 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DA962BCAA27200055E64 /* Constant.swift */; };
+		2A89DAA32BCBCD7A00055E64 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAA22BCBCD7A00055E64 /* WelcomeScreenViewController.swift */; };
+		2A89DAA52BCBCD8800055E64 /* WelcomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAA42BCBCD8800055E64 /* WelcomeScreenViewModel.swift */; };
+		2A89DAA72BCBCD9D00055E64 /* WelcomeScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAA62BCBCD9D00055E64 /* WelcomeScreenTableViewCell.swift */; };
+		2A89DAAA2BCBDE6700055E64 /* WelcomeScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAA92BCBDE6700055E64 /* WelcomeScreenModel.swift */; };
+		2A89DAAD2BCBE97500055E64 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAAC2BCBE97500055E64 /* SettingsViewController.swift */; };
+		2A89DAAF2BCBE98100055E64 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAAE2BCBE98100055E64 /* SettingsViewModel.swift */; };
+		2A89DAB12BCC059600055E64 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAB02BCC059600055E64 /* SettingsCoordinator.swift */; };
+		2A89DAB32BCC065D00055E64 /* WelcomeScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAB22BCC065D00055E64 /* WelcomeScreenCoordinator.swift */; };
+		2A89DAB72BCC37DA00055E64 /* APODViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAB62BCC37DA00055E64 /* APODViewController.swift */; };
+		2A89DAB92BCC37E600055E64 /* APODViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DAB82BCC37E600055E64 /* APODViewModel.swift */; };
+		2A89DABB2BCC3F2000055E64 /* APODCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A89DABA2BCC3F2000055E64 /* APODCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A89DA712BCA85D200055E64 /* Space Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A89DA742BCA85D200055E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A89DA762BCA85D200055E64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A89DA782BCA85D200055E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2A89DA7B2BCA85D200055E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A89DA7E2BCA85D200055E64 /* Space_Explorer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Space_Explorer.xcdatamodel; sourceTree = "<group>"; };
 		2A89DA802BCA85D400055E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A89DA832BCA85D400055E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A89DA852BCA85D400055E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A89DA8C2BCA87B900055E64 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		2A89DA8F2BCAA13000055E64 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2A89DA962BCAA27200055E64 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2A89DAA22BCBCD7A00055E64 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		2A89DAA42BCBCD8800055E64 /* WelcomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewModel.swift; sourceTree = "<group>"; };
+		2A89DAA62BCBCD9D00055E64 /* WelcomeScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenTableViewCell.swift; sourceTree = "<group>"; };
+		2A89DAA92BCBDE6700055E64 /* WelcomeScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenModel.swift; sourceTree = "<group>"; };
+		2A89DAAC2BCBE97500055E64 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2A89DAAE2BCBE98100055E64 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		2A89DAB02BCC059600055E64 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		2A89DAB22BCC065D00055E64 /* WelcomeScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenCoordinator.swift; sourceTree = "<group>"; };
+		2A89DAB62BCC37DA00055E64 /* APODViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewController.swift; sourceTree = "<group>"; };
+		2A89DAB82BCC37E600055E64 /* APODViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODViewModel.swift; sourceTree = "<group>"; };
+		2A89DABA2BCC3F2000055E64 /* APODCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A89DA932BCAA1F500055E64 /* Alamofire in Frameworks */,
+				2A89DA952BCAA1F500055E64 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,14 +88,106 @@
 			children = (
 				2A89DA742BCA85D200055E64 /* AppDelegate.swift */,
 				2A89DA762BCA85D200055E64 /* SceneDelegate.swift */,
-				2A89DA782BCA85D200055E64 /* ViewController.swift */,
-				2A89DA7A2BCA85D200055E64 /* Main.storyboard */,
+				2A89DAA82BCBDE4F00055E64 /* Models */,
+				2A89DA9A2BCB230F00055E64 /* Modules */,
+				2A89DA8B2BCA878900055E64 /* Coordinators */,
+				2A89DA8E2BCAA10600055E64 /* Managers */,
 				2A89DA802BCA85D400055E64 /* Assets.xcassets */,
 				2A89DA822BCA85D400055E64 /* LaunchScreen.storyboard */,
 				2A89DA852BCA85D400055E64 /* Info.plist */,
 				2A89DA7D2BCA85D200055E64 /* Space_Explorer.xcdatamodeld */,
 			);
 			path = "Space Explorer";
+			sourceTree = "<group>";
+		};
+		2A89DA8B2BCA878900055E64 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				2A89DA8C2BCA87B900055E64 /* RootCoordinator.swift */,
+				2A89DAB22BCC065D00055E64 /* WelcomeScreenCoordinator.swift */,
+				2A89DABA2BCC3F2000055E64 /* APODCoordinator.swift */,
+				2A89DAB02BCC059600055E64 /* SettingsCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		2A89DA8E2BCAA10600055E64 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2A89DA9B2BCB234F00055E64 /* Settings */,
+				2A89DA8F2BCAA13000055E64 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2A89DA9A2BCB230F00055E64 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2A89DAAB2BCBE95600055E64 /* Settings */,
+				2A89DA9E2BCBCBB000055E64 /* WelcomeScreen */,
+				2A89DA9F2BCBCBF000055E64 /* AstronomyPictureOfTheDay */,
+				2A89DAA02BCBCC3500055E64 /* MarsRoverPhotos */,
+				2A89DAA12BCBCC5F00055E64 /* AsteroidsNeoWs */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2A89DA9B2BCB234F00055E64 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2A89DA9E2BCBCBB000055E64 /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2A89DAA22BCBCD7A00055E64 /* WelcomeScreenViewController.swift */,
+				2A89DAA42BCBCD8800055E64 /* WelcomeScreenViewModel.swift */,
+				2A89DAA62BCBCD9D00055E64 /* WelcomeScreenTableViewCell.swift */,
+			);
+			path = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		2A89DA9F2BCBCBF000055E64 /* AstronomyPictureOfTheDay */ = {
+			isa = PBXGroup;
+			children = (
+				2A89DAB62BCC37DA00055E64 /* APODViewController.swift */,
+				2A89DAB82BCC37E600055E64 /* APODViewModel.swift */,
+			);
+			path = AstronomyPictureOfTheDay;
+			sourceTree = "<group>";
+		};
+		2A89DAA02BCBCC3500055E64 /* MarsRoverPhotos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MarsRoverPhotos;
+			sourceTree = "<group>";
+		};
+		2A89DAA12BCBCC5F00055E64 /* AsteroidsNeoWs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AsteroidsNeoWs;
+			sourceTree = "<group>";
+		};
+		2A89DAA82BCBDE4F00055E64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A89DAA92BCBDE6700055E64 /* WelcomeScreenModel.swift */,
+				2A89DA962BCAA27200055E64 /* Constant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A89DAAB2BCBE95600055E64 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2A89DAAC2BCBE97500055E64 /* SettingsViewController.swift */,
+				2A89DAAE2BCBE98100055E64 /* SettingsViewModel.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +206,10 @@
 			dependencies = (
 			);
 			name = "Space Explorer";
+			packageProductDependencies = (
+				2A89DA922BCAA1F500055E64 /* Alamofire */,
+				2A89DA942BCAA1F500055E64 /* AlamofireDynamic */,
+			);
 			productName = "Space Explorer";
 			productReference = 2A89DA712BCA85D200055E64 /* Space Explorer.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +238,9 @@
 				Base,
 			);
 			mainGroup = 2A89DA682BCA85D200055E64;
+			packageReferences = (
+				2A89DA912BCAA1F500055E64 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 2A89DA722BCA85D200055E64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +257,6 @@
 			files = (
 				2A89DA812BCA85D400055E64 /* Assets.xcassets in Resources */,
 				2A89DA842BCA85D400055E64 /* Base in Resources */,
-				2A89DA7C2BCA85D200055E64 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +267,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A89DA792BCA85D200055E64 /* ViewController.swift in Sources */,
+				2A89DAA72BCBCD9D00055E64 /* WelcomeScreenTableViewCell.swift in Sources */,
 				2A89DA752BCA85D200055E64 /* AppDelegate.swift in Sources */,
+				2A89DABB2BCC3F2000055E64 /* APODCoordinator.swift in Sources */,
+				2A89DA8D2BCA87B900055E64 /* RootCoordinator.swift in Sources */,
+				2A89DAB72BCC37DA00055E64 /* APODViewController.swift in Sources */,
+				2A89DAA52BCBCD8800055E64 /* WelcomeScreenViewModel.swift in Sources */,
+				2A89DA902BCAA13000055E64 /* NetworkManager.swift in Sources */,
 				2A89DA772BCA85D200055E64 /* SceneDelegate.swift in Sources */,
+				2A89DAA32BCBCD7A00055E64 /* WelcomeScreenViewController.swift in Sources */,
+				2A89DAB32BCC065D00055E64 /* WelcomeScreenCoordinator.swift in Sources */,
+				2A89DAAF2BCBE98100055E64 /* SettingsViewModel.swift in Sources */,
+				2A89DAAA2BCBDE6700055E64 /* WelcomeScreenModel.swift in Sources */,
 				2A89DA7F2BCA85D200055E64 /* Space_Explorer.xcdatamodeld in Sources */,
+				2A89DAB12BCC059600055E64 /* SettingsCoordinator.swift in Sources */,
+				2A89DA972BCAA27200055E64 /* Constant.swift in Sources */,
+				2A89DAB92BCC37E600055E64 /* APODViewModel.swift in Sources */,
+				2A89DAAD2BCBE97500055E64 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2A89DA7A2BCA85D200055E64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A89DA7B2BCA85D200055E64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2A89DA822BCA85D400055E64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,7 +432,6 @@
 				INFOPLIST_FILE = "Space Explorer/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,7 +459,6 @@
 				INFOPLIST_FILE = "Space Explorer/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -367,6 +496,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A89DA912BCAA1F500055E64 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A89DA922BCAA1F500055E64 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A89DA912BCAA1F500055E64 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		2A89DA942BCAA1F500055E64 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A89DA912BCAA1F500055E64 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		2A89DA7D2BCA85D200055E64 /* Space_Explorer.xcdatamodeld */ = {
